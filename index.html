@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaustubh Patil's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Kaustubh Patil</h1>
+            <p>Computer Engineering Student</p>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="your-image.jpg" alt="Kaustubh Patil" class="profile-image">
+                <p>I'm currently pursuing a degree in Computer Engineering and have a keen interest in AI and web development. I'm passionate about using technology to solve real-world problems.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <img src="project2.jpg" alt="AI-Powered Pest Identification" class="project-image">
+                <h3>AI-Powered Pest Identification and Targeted Pesticide Recommendations
+                    Krushi-innovators
+                </h3>
+                <p>Technologies Used: Python, YOLOv8,Type Script, Svelte</p>
+                <a href="https://github.com/sidharth-sinhasane/Krushi-innovators/tree/main" target="_blank">Souce Code</a>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Drowsiness Detector App" class="project-image">
+                <h3>Drowsiness Detector App</h3>
+                <p>Technologies Used: Deep Learning with Python</p>
+            </div>
+            <div class="project">
+                <img src="project4.jpg" alt="Disaster Relief Drone System" class="project-image">
+                <h3>Disaster Relief Drone System</h3>
+                <p>Technologies Used: Multi-drone system, GIS data utilization, Machine learning, Thermal imaging</p>
+            </div>
+            <div class="project">
+                <img src="project5.jpg" alt="Book Exchange Website" class="project-image">
+                <h3>Book Exchange Website</h3>
+                <p>Technologies Used: HTML, CSS, PHP, SQL</p>
+                <a href="https://kaustubhpatil111.github.io" target="_blank">Website</a>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, C++, SQL</li>
+                <li>Frameworks & Libraries: YOLO, Flask, TensorFlow, PyTorch, OpenCV, Tkinter, Pandas, NumPy</li>
+                <li>Web Development: HTML, CSS, PHP</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor's in Computer Engineering</strong><br>
+               Institution: Pimpri Chinchwad College of Engineering and Research<br>
+               Graduation Year: 2026</p>
+            <h3>Certifications:</h3>
+            <ul>
+                <li>100 Days of Code: The Complete Python Pro Bootcamp - Udemy (November - April)</li>
+                <li>Deep Learning with Python - Great Learning (March - April)</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or inquiries!</p>
+            <ul>
+                <li>Email: <a href="mailto:kaustubh.patil_comp22@pccoer.in">kaustubh.patil_comp22@pccoer.in</a></li>
+                <li>Phone: +91 9823680375</li>
+                <li>Location: Akurdi, Pune</li>
+                <li>GitHub: <a href="https://github.com/kaustubhpatil111" target="_blank">kaustubhpatil111</a></li>
+                <li>LinkedIn: <a href="#" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kaustubh Patil. All rights reserved.</p>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('minimized');
+            } else {
+                header.classList.remove('minimized');
+            }
+        });
+    </script>
+</body>
+</html>
